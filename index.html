@@ -10,7 +10,7 @@
     <div id="container">
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap " rel="stylesheet">
             <div id="menu_topo">
-                <img src="/imagem/logomarca.png" alt="logomarca">
+                <img src="/imagem/logomarca.png" alt="logomarca" class="logomarca">
                 <div id="cx_usuario">
                   <div class="icone"><i class="fi fi-tr-circle-user"></i></div>
                   <div id="conteudo_cx_usuario">
@@ -21,27 +21,41 @@
             <hr>
  
             <div id="banner">
-                <div id="conteudo_banner">
-                    <h1>Viaje pelo mundo <span class="azul_claro">aproveite</span> os melhores destinos</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sequi rem expedita praesentium aspernatur maiores offiab voluptatem cum error.</p>
-                    
-                    <div id="botoes">
-                            <div class="btn">Cadastre-se</div>
-                         <div id="cx_play">
-                            <i class="fi fi-bs-play-circle"></i>
-                            <p>Veja como funciona</p>
-                        </div>
-                    </div>
-
-                </div><!--fim do conteudo banner-->
+                    <div id="conteudo_banner">
+                        <h1>Viaje pelo mundo <span class="azul_claro">aproveite</span> os melhores destinos</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sequi rem expedita praesentium aspernatur maiores offiab voluptatem cum error.</p>
+                            <div id="botoes">
+                                <div class="btn">Cadastre-se</div>
+                                <div id="cx_play">
+                                    <i class="fi fi-bs-play-circle"></i>
+                                    <p>Veja como funciona</p>
+                                </div>
+                            </div>
+                    </div><!--fim do conteudo banner-->
                 <img src="/imagem/viajante.png" alt="viajante" class="imagem_editada"> 
             </div><!--fim do banner-->
             
-            <div class="logomarcas">
-                <img src="/imagem/latam.png" alt="imagem1" class="marcas1">
-                <img src="/imagem/expedia.png" alt="imagem2" class="marcas2">
-                <img src="/imagem/qantas.png" alt="imagem3" class="marcas3">
-                <img src="/imagem/alitalia.png" alt="imagem4" class="marcas4">
+            <div id="conteudo_tablet">
+                <div class="logomarcas">
+                    <div id="metade1">
+                        <img src="/imagem/latam.png" alt="imagem1" class="marcas1">
+                        <img src="/imagem/expedia.png" alt="imagem2" class="marcas2">
+                    </div>
+
+                    <div id="metade2">
+                        <img src="/imagem/qantas.png" alt="imagem3" class="marcas3">
+                        <img src="/imagem/alitalia.png" alt="imagem4" class="marcas4">
+                    </div>
+                </div> <!--fim da class logomarcas-->
+            </div>
+
+            <div id="conteudo_desktop">
+                <div class="logomarcas">
+                    <img src="/imagem/latam.png" alt="imagem1" class="marcas1">
+                    <img src="/imagem/expedia.png" alt="imagem2" class="marcas2">
+                    <img src="/imagem/qantas.png" alt="imagem3" class="marcas3">
+                    <img src="/imagem/alitalia.png" alt="imagem4" class="marcas4">
+                </div>
             </div> <!--fim da class logomarcas-->
 
             <div id="cx_destino">
@@ -119,7 +133,7 @@
             </div><!--fim de atracoes-->
 
             <div id="cx_mapa">
-                <img src="/imagem/mapa.png" alt="">
+                <img src="/imagem/mapa.png" alt="" class="mapa">
             </div><!--fim do cx mapa-->
 
             <div id="cx_sugestoes">
