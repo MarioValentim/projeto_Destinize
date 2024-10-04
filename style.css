@@ -345,18 +345,15 @@ p{
     display: flex;
     width: 100%;
     height: 20vw;
-    border: 1px solid red;
     margin-top: 3%;
 }   
 #local{
-    border: 1px solid red;
     width: 26%;
     height: 50%;
-    margin-left: 5%;
+    margin-left: 7%;
     display: flex;
 }
 #cx_local{
-    border: 1px solid red;
     width: 17%;
     height: 40%;
     background-color: #dee2eb;
@@ -364,7 +361,6 @@ p{
 }
 #local h1{
     width: 90%;
-    border: 1px solid red;
     font-size: 23px;
     color:var(--Texto_escuro);
     margin-left: 5%;
@@ -382,14 +378,13 @@ p{
 
 }
 #favoritos{
-    border: 1px solid red;
+
     width: 26%;
     height: 50%;
     margin-left: 5%;
     display: flex;
 }
 #cx_favoritos{
-    border: 1px solid red;
     width: 17%;
     height: 40%;
     background-color: #dee2eb;
@@ -397,7 +392,6 @@ p{
 }
 #favoritos h1{
     width: 90%;
-    border: 1px solid red;
     font-size: 23px;
     color:var(--Texto_escuro);
     margin-top: -1%;
@@ -416,14 +410,12 @@ p{
 
 }
 #pessoas{
-    border: 1px solid red;
     width: 26%;
     height: 50%;
     margin-left: 5%;
     display: flex;
 }
 #cx_pessoas{
-    border: 1px solid red;
     width: 17%;
     height: 40%;
     background-color: #dee2eb;
@@ -431,7 +423,6 @@ p{
 }
 #pessoas h1{
     width: 90%;
-    border: 1px solid red;
     font-size: 23px;
     color:var(--Texto_escuro);
     margin-top: -1%;
@@ -446,10 +437,115 @@ p{
     text-align: center;
     margin-top: 25%;
     margin-left: 2%;
-   
+}
+#blog{
+    width: 100%;
+    height: 10vw;
+    margin-top: -5%;
+}
+#blog p{
+    color: var(--Azul);
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 5%;
+}
+#blog h1{
+    color: var(--Texto_escuro);
+    font-size: 50px;
+    margin-left: 5%;
+}
+#video{
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+    height: 32vw;
+}
+#esquerdo_video{
+    width: 30%;
+    height: 100%;
+    margin-right: -5%;
+    margin-left: 4%;
+}
+#divisor_video{
+    width: 70%;
+    height: 50%;
+    margin-left: 20%;
 
 }
+.foto_destino4{
+    width: 100%;
+    height: 100%;
+    border-radius: 5% 5% 0% 0%;
 
+}
+#conteudo_video{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: -5%;
+    border-radius: 0% 0% 5% 5%;
+    box-shadow: 1px 1px 10px rgb(131, 131, 131);
+}
+#conteudo_video h1{
+    padding-top: 8%;
+    font-size: 15px;
+    margin-left: 5%;
+    color: #818796;
+}
+#conteudo_video h2{
+    font-size: 17px;
+    margin-left: 5%;
+    color: #383838;
+    margin-right:2% ;
+}
+#conteudo_video h3{
+    font-size: 14px;
+    margin-left: 5%;
+    color: #636363;
+    margin-right:2% ;
+}
+#conteudo_video p{
+    font-size: 15px;
+    margin-left: 5%;
+    color:var(--Azul);
+    margin-right:2% ;
+    font-weight: 600;
+}
+.imagem_video{
+    width: 70%;
+    height: 45vw;
+    margin-right: 3%;
+}
+#dicas{
+    width: 82%;
+    height: 15vw;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+#imagem_dicas{
+    background-image: url(/imagem/destino5.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+#imagem_dicas h1{
+    padding-top: 5%;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-left: 3%;
+    
+}
+#imagem_dicas p{
+    color: rgb(236, 236, 236);
+    font-size: 15px;
+    margin-left: 3%;
+    margin-right: 5%;
+}
+    
     
 
 
