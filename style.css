@@ -3,6 +3,10 @@
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css');
 
 :root{
 
@@ -65,9 +69,11 @@ body{
 }
 
 #conteudo_banner p{
+    margin-top: -5%;
     font-size: 17px;
     color: rgb(78, 74, 97);
     width: 80%;
+    margin-bottom: 6%;
 }
 
 .azul_claro{
@@ -527,15 +533,15 @@ p{
     background-image: url(/imagem/destino5.png);
     background-size: cover;
     background-position: center;
-    width: 100%;
+    width: 99.5%;
     height: 100%;
 }
 #imagem_dicas h1{
     padding-top: 5%;
     color: white;
-    font-size: 17px;
+    font-size: 19px;
     letter-spacing: 2px;
-    font-weight: 600;
+    font-weight: 700;
     margin-left: 3%;
     
 }
@@ -545,7 +551,198 @@ p{
     margin-left: 3%;
     margin-right: 5%;
 }
+#depoimento{
+    height: 20vw;
+    margin-top: 10%;
+    text-align: center;
+}
+#depoimento h1{
+    color: rgb(54, 35, 221);
+    font-size: 16px;
+}  
+#depoimento h2{
+    font-size: 60px;
+    font-weight: 700;
+} 
+#depoimento p{
+    font-size: 18px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #0e0e0e;
+}
+#usuarios{
+    height: 27vw;
+    display: flex;
+    justify-content: space-between;
+}
+#sandro{
+    width: 30%;
+    height: 100%;
+    margin-left: 5%;
+}
+#sandro1{
+    border: 1px solid rgb(219, 219, 219);
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    box-shadow: 1px 1px 30px rgb(131, 131, 131);
+    border-radius: 2%;
+}
+#sandro1 p{
+    margin-top: 15%;
+    font-size: 17px;
+    color: #757880;
+    text-align: center;
+    margin: 5%;
+    font-weight: 500;
+}
+#roberto{
+    width: 30%;
+    height: 100%;
+}
+#roberto1{
+    border: 1px solid rgb(219, 219, 219);
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    box-shadow: 1px 1px 30px rgb(131, 131, 131);
+    border-radius: 2%;
+}
+#roberto1 p{
+    margin-top: 15%;
+    font-size: 17px;
+    color: #757880;
+    text-align: center;
+    margin: 5%;
+    font-weight: 500;
+}
+#patrik{
+    width: 30%;
+    height: 100%;
+    margin-right: 5%;
+}
+#patrik1{
+    border: 1px solid rgb(219, 219, 219);
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    box-shadow: 1px 1px 30px rgb(131, 131, 131);
+    border-radius: 2%;
+}
+#patrik1 p{
+    margin-top: 15%;
+    font-size: 17px;
+    color: #757880;
+    text-align: center;
+    margin: 5%;
+    font-weight: 500;
+}
+.avatar{
+    margin-left: 26%;
+    margin-top: 10%;
+}
+.estrela{
+    margin-left: 30%;
+    color: rgb(255, 174, 0);
+}
+.estrela5{
+    margin-left: 1%;
+    color: #d1d1d1;
+}
+#alinhamento{
+    font-size: 25px;
+    display: flex;
+}
+#patrik1 h1{
+    font-size: 15px;
+    color: var(--Azul);
+    margin-left: 36%;
+}
+#roberto1 h1{
+    font-size: 15px;
+    color: var(--Azul);
+    margin-left: 31.5%;
+}
+#sandro1 h1{
+    font-size: 15px;
+    color: var(--Azul);
+    margin-left: 33%;
+}
+#rodape{
+    width: 100%;
+    height: 45vw;
+}
+#conteudo_rodape{
+    width: 45%;
+    height: 60%;
+    margin-top: 10%;
+}
+.logomarca{
+    margin-top: 5%;
+    margin-left: 20%;
+}
+#conteudo_rodape p{
+    margin-top: 3%;
+    margin-left: 20%;
+    color: #b3b3b3;
+}
+.telefone{
+    width: 5%;
+    height: 10%;
+    margin-left: 20%;
+    margin-top: 5%;
+    color: #b3b3b3;
+}
+#dividir{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+#dividir h1{
+    color: #b3b3b3;
+    font-size: 15px;
+    width: 30%;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: -0.3%;
+}
+.correio{
+    width: 5%;
+    height: 10%;
+    margin-left: 20%;
+    margin-top: 10%;
+    color: #b3b3b3;
+    margin-left: -35%;
+}
+#dividir h2{
+    color: #b3b3b3;
+    font-size: 15px;
+    width: 30%;
+    height: 10%;
+    margin-top: 10%;
     
+}
+.localidade{
+    width: 5%;
+    height: 10%;
+    margin-left: 20%;
+    margin-top: 15%;
+    color: #b3b3b3;
+    margin-left: -35%;
+}
+#dividir h3{
+    color: #b3b3b3;
+    font-size: 15px;
+    width: 30%;
+    height: 10%;
+    margin-top: 15%;
+    
+}
+#copyright{
+    font-size: 15px;
+    margin-left: 37%;
+    color: #b3b3b3;
+}
     
 
 
